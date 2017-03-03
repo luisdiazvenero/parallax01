@@ -7,11 +7,18 @@
   </head>
   <body>
     <section class="container">
-      <figure>
+      <figure class="iphone" id="iphone">
         <img src="img/iphone.jpg" alt="">
       </figure>
     </section>
 
+    <script type="text/javascript">
+    const $iphone = document.getElementById('iphone');
 
+      window.addEventListener("scroll", function(e) {
+        console.log(window.scrollY);
+        $iphone.style.marginTop = window.scrollY + "px";
+      });
+    </script>
   </body>
 </html>
