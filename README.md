@@ -1,1 +1,2 @@
-# parallax01
+# Efecto Parallax
+Hecho con HTML y CSS
