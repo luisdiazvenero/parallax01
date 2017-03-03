@@ -8,4 +8,18 @@
 .iphone {
   display: inline-block;
   margin-top: 150px;
+  position: relative;
+}
+
+.shape {
+  background-image: url("../img/shape.jpg");
+  background-position: -54px;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  top: 75px;
+  right: 161px;
+  /* mascara de imagen */
+  -webkit-mask-image: url("../img/apple-mask.png");
+  mask-image: url("../img/apple-mask.png");
 }
