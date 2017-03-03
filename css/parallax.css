@@ -9,6 +9,7 @@
   display: inline-block;
   margin-top: 150px;
   position: relative;
+  transition: .1s;
 }
 
 .shape {
