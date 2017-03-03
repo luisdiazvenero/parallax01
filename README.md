@@ -1,2 +1,2 @@
 # Efecto Parallax
-Hecho con HTML y CSS
+Hecho con HTML, JS y CSS
